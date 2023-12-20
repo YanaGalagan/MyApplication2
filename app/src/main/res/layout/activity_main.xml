@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="0"
+            android:rotationX="0"
+            android:rotationY="0"
+            android:text="Выбери идею для приготовления блюда!"
+            android:textAllCaps="true"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textDirection="firstStrongRtl"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Завтрак"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Первые блюда"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Горячие блюда"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#9A7676"
+            android:text="Салаты"
+            android:textAllCaps="true"
+            android:textColorHighlight="#C3A4A4"
+            app:rippleColor="#60C35D" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Дессерты"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+</RelativeLayout>
